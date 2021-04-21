@@ -17,4 +17,4 @@ async def hello(ctx):
 
 
 client.run('TOKEN') # use this if self hosting or something lmao
-client.run(os.environ['token']); # use this if running in repl with secrets
+client.run(my_secret); # use this if running in repl with secrets
